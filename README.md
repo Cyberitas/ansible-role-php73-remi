@@ -36,14 +36,17 @@ None.
 
 Example Hosts
 ----------------
-hosts 
+```
 ansible.dev.cyberitas.com ansible_connection=local
 
 [lamp]
 ansible.dev.cyberitas.com
+```
 
 Example Playbook
 ----------------
+
+```
 # play.yml
 # ansible-playbook -i hosts play.yml --become
 ---
@@ -55,7 +58,7 @@ Example Playbook
 #   become: yes
 #     become_user: "root"
 #       become_method: "sudo"
-
+```
 
 License
 -------
