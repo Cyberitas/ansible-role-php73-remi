@@ -52,7 +52,7 @@ Example Playbook
 ---
 - hosts: all
   roles:
-    - role: php73-remi
+    - role: php73remi
 
 # This makes vagrant work for elevated privileges
 #   become: yes
@@ -68,4 +68,4 @@ MIT
 Author Information
 ------------------
 
-Create in 2019 by James Dugger for Cyberitas Technologies, LLC
+Create in 2020 by Tom Emerson for Cyberitas Technologies, LLC
