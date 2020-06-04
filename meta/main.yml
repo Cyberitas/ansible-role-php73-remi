@@ -1,7 +1,7 @@
 galaxy_info:
   author: Tom Emerson
-  role_name: php73remi
-  description: Ansible role for installing php 73 on RHEL/CentOs from the Remi repository
+  role_name: php73_remi
+  description: Ansible role for installing php 7.3 on RHEL/CentOs from the Remi repository
   company: Cyberitas Technologies, LLC
   license: license (MIT)
   min_ansible_version: 2.4
