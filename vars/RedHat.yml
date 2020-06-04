@@ -1,17 +1,25 @@
 ---
 __php_modules:
   - php
+  - php-bcmath
   - php-cli
   - php-common
-  - php-fpm
+  - php-devel
   - php-gd
   - php-imap
+  - php-json
   - php-ldap
   - php-mbstring
+  - php-mysqlnd
   - php-opcache
   - php-pdo
-  - php-pear
+  - php-pdo-dblib
   - php-pecl-apcu
+  - php-pecl-imagick
+  - php-pecl-mcrypt
+  - php-pecl-memcached
+  - php-process
+  - php-soap
   - php-xml
   - php-xmlrpc
 
